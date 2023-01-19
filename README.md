@@ -29,13 +29,14 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop](./screenshot.png)
+![mobile](./screenshot_mobile.png)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/Renan-MF-Ribeiro/news-homepage)
+- Live Site URL: [Vercel](https://news-homepage-roan.vercel.app)
 
 ## My process
 
