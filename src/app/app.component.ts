@@ -8,12 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   breakpoint = 3;
   ngOnInit(): void {
-    this.breakpoint = window.innerWidth <= 400 ? 1 : 3;
+    this.breakpoint = window.innerWidth <= 600 ? 1 : 3;
   }
 
   onResize(event: any) {
     console.log(event)
-    this.breakpoint = event.target.innerWidth <= 400 ? 1 : 3;
+    this.breakpoint = event.target.innerWidth <= 600 ? 1 : 3;
   }
 
 pages =[
