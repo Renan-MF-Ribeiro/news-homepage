@@ -1,0 +1,137 @@
+$SoftOrange: hsl(35, 77%, 62%);
+$SoftRed: hsl(5, 85%, 63%);
+$Offwhite: hsl(36, 100%, 99%);
+$Grayishblue: hsl(233, 8%, 79%);
+$DarkGrayishBlue: hsl(236, 13%, 42%);
+$VeryDarkBlue: hsl(240, 100%, 5%);
+.example-spacer {
+  flex: 1 1 auto;
+}
+.mat-toolbar {
+  background-color: $Offwhite;
+  padding: 5vw 13vw;
+}
+a {
+  text-decoration: none;
+  color: $VeryDarkBlue;
+  font-size: small;
+  margin: 1vw;
+  &:hover {
+    color: $SoftOrange;
+  }
+}
+.container {
+  padding: 0 13vw;
+  flex-wrap: wrap;
+}
+.headline {
+  padding: 2vw 0;
+  .title {
+    h1 {
+      font-size: 6vh;
+      font-weight: 800;
+      line-height: 6vh;
+      letter-spacing: 1px;
+    }
+    padding-right: 1vw;
+  }
+  .describe {
+    height: 100%;
+
+    .button {
+      margin: 3vw 0;
+    }
+    .mat-flat-button {
+      background-color: $SoftRed;
+      color: $Offwhite;
+      border-radius: 0;
+      width: 50%;
+      letter-spacing: 5px;
+      font-size: x-small;
+      &:hover {
+        background-color: $VeryDarkBlue;
+      }
+    }
+  }
+}
+.mat-hint {
+  font-size: 1.35vh;
+  line-height: 1vh;
+  color: $DarkGrayishBlue;
+  letter-spacing: 0.5px;
+}
+.news {
+  background-color: $VeryDarkBlue;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    color: $SoftOrange;
+    font-size: 4vh;
+    font-weight: 700;
+    margin-bottom: 2.5vh;
+  }
+  .new {
+    a {
+      text-decoration: none;
+      color: $Offwhite;
+      font-weight: 700;
+      font-size: larger;
+      margin: 0;
+      &:hover {
+        color: $SoftOrange;
+        cursor: pointer;
+      }
+    }
+    .mat-hint {
+      color: $Grayishblue;
+    }
+
+    .mat-divider {
+      background-color: $DarkGrayishBlue;
+      margin: 2vw 0;
+    }
+  }
+}
+
+.newsCard {
+  .describe {
+    padding: 0 1.4vw;
+    h1 {
+      font-size: 2.5vh;
+      color: $Grayishblue;
+      margin: 0;
+      font-weight: 700;
+    }
+    h2 {
+      font-weight: 700;
+      margin: 0;
+      font-size: small;
+      &:hover {
+        color: $SoftRed;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.content {
+  align-items: flex-start;
+  height: 100%;
+}
+.sidenav {
+  min-width: 70%;
+  .mat-icon-button {
+    right: 0;
+    position: absolute;
+  }
+
+  .menuSidenav {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px;
+    a {
+      font-size: medium;
+      margin: 15px 10px;
+    }
+  }
+}
